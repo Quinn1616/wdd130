@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #102542;
+    --secondary-color: #48A9A6;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #E0B700;
+
+    --heading-font: 'Lato', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #102542;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #48A9A6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+header a {
+    font-family: var(--paragraph-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 840px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 15px;
+    left: 280px;
+    color: var(--accent1-color);
+    text-shadow: 0 0 8px black;
+    font-weight: lighter;
+}
+
+.hero article {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    right: 80px;
+    background-color: rgba(16, 37, 66, .6);
+    padding: 10px;
+    color: var(--accent1-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+}
+
+#clientimg {
+    width: 160px;
+}
+
+.awaits img {
+    max-width: 600px;
+}
+
+.sociallinks img {
+    max-width: 50px;
+}
