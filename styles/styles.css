@@ -6,7 +6,7 @@
 }
 
 nav {
-    background-color: steelblue;
+    background-color: rgb(42, 79, 109);
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -22,16 +22,16 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: rgb(42, 79, 109);
     margin: 1rem;
     padding: 1rem;
-    border-bottom: 1px solid steelblue;
+    border-bottom: 1px solid rgb(42, 79, 109);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(42, 79, 109);
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -73,7 +73,7 @@ aside h2 {
 
 footer {
     margin-top: 20px;
-    border-top: 1px solid steelblue;
+    border-top: 1px solid rgb(42, 79, 109);
     text-align: center;
 }
 
