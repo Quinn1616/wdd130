@@ -4,7 +4,7 @@
     --primary-color: #102542;
     --secondary-color: #48A9A6;
     --accent1-color: #FFFFFF;
-    --accent2-color: #E0B700;
+    --accent2-color: #f1e7b9;
 
     --heading-font: 'Lato', sans-serif;
     --paragraph-font: 'Montserrat', sans-serif;
@@ -31,20 +31,49 @@ h2 {
     padding-bottom: 1rem;
 }
 
-p {
+p, figcaption {
     font-family: var(--paragraph-font);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: var(--accent2-color);
+}
+
+header img {
+    max-width: 100px;
+    margin: 1em 4em;
 }
 
 header a {
     font-family: var(--paragraph-font);
 }
 
+header nav {
+    display: flex;
+    margin: 1em 4em;
+}
+
+header nav a {
+    padding: 1em 2em;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+header nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
 a {
     text-decoration: none;
 }
 
-main {
+main, header, footer {
     max-width: 840px;
+    margin: auto;
 }
 
 .hero {
@@ -84,11 +113,55 @@ main {
     width: 160px;
 }
 
-.awaits img {
-    max-width: 600px;
+.history h2 {
+    text-align: center;
+}
+
+.history-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.history-cont * {
+    padding: 15px;
+}
+
+.history-cont img {
+    max-width: 250px;
+}
+
+.awaits {
+    text-align: center;
+}
+
+.awaits-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.awaits-cont figure {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.awaits-cont img {
+    max-width: 150px;
+}
+
+footer {
+    background-color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+footer p {
+    margin: auto;
 }
 
 .sociallinks img {
     text-decoration: none;
-    max-width: 50px;
+    max-width: 30px;
 }
