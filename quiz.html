@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form | Quinn Bastian</title>
+    <meta name="description" content="Course home quiz form.">
+    <meta name="author" content="Quinn Bastian">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <label for="q1">
+                1. What does HTML stand for?
+                <input type="text" name="q1" id="q1">
+            </label>
+            <label for="q2">
+                2. What are HTML tags?
+                <textarea name="q2" id="q2" cols="25" rows="5"></textarea>
+            </label>
+            <label for="q3">
+                3. Which is not part of the CSS Box Model?
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="">Margin</option>
+                    <option value="">Class</option>
+                    <option value="">Border</option>
+                </select>
+            </label>
+            <label for="q4">
+                4. What is the latest version of HTML? (Number only)
+                <input type="number" name="q4" id="q4">
+            </label>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2023 | Quiz Form | Quinn Bastian</p>
+    </footer>
+</body>
+</html>
