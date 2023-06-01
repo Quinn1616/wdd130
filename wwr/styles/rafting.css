@@ -359,6 +359,11 @@ footer a {
     margin: 10px auto;
 }
 
+.trips-top button a {
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+
 .trips-fig {
     display: flex;
 }
@@ -387,7 +392,7 @@ footer a {
     padding: 10px 20px;
 }
 
-.trips-cta button a {
+.trip-cta button a {
     color: var(--accent1-color);
     text-decoration: none;
 }
