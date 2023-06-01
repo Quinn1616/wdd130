@@ -386,3 +386,8 @@ footer a {
 .trips table td {
     padding: 10px 20px;
 }
+
+.trips-cta button a {
+    color: var(--accent1-color);
+    text-decoration: none;
+}
